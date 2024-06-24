@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="media/mdb-favicon.ico" type="image/x-icon"/>
+    <!-- Font Awesome -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css"/>
+    <!--    AOS-->
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body style="background: linear-gradient(0deg, rgba(220,76,100,1) 0%, rgba(59,113,202,1) 100%);
+font-family: Montserrat, sans-serif">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg shadow mt-0 py-1 mb-1" style="background: rgb(54,151,245)">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+
+        <!-- Navbar brand -->
+        <a class="fw-bold ls-tight text-dark text-center py-0 my-0">
+            <img data-aos="flip-up" src="media/logo.png" alt="" class="img" style="max-width: 100px"></a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler text-center" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                <!-- Link -->
+                <li class="nav-item me-3">
+                    <a data-aos="fade-right" data-aos-delay="300"
+                       class="nav-link btn-animate ripple btn-rounded fw-bold fs-5" href="#about_us"
+                       data-ripple-color="danger"
+                       data-mdb-ripple-unbound="true">О DICKENS</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown me-3">
+                    <a data-aos="fade-right" data-aos-delay="200"
+                       class="nav-link dropdown-toggle ripple btn-animate fw-bold fs-5" href="#"
+                       id="navbarDropdown" role="button"
+                       data-mdb-toggle="dropdown" aria-expanded="false"
+                       data-mdb-ripple-unbound="true"
+                       data-ripple-color="danger">
+                        ПРОГРАММЫ
+                    </a>
+                    <!-- Dropdown menu -->
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item text-center ripple fw-bold fs-6" href="#"
+                               data-mdb-ripple-unbound="true"
+                               data-ripple-color="danger">Индивидуальные</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-center ripple fw-bold fs-6" href="#"
+                               data-mdb-ripple-unbound="true"
+                               data-ripple-color="danger">Парные</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider border border-primary"/>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-center ripple fw-bold fs-6" href="#"
+                               data-mdb-ripple-unbound="true"
+                               data-ripple-color="danger">Групповые</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Link -->
+                <li class="nav-item me-3 fw-bold fs-5">
+                    <a data-aos="fade-right" data-aos-delay="100"
+                       class="nav-link ripple btn-animate" href="#"
+                       data-mdb-ripple-unbound="true"
+                       data-ripple-color="danger">ПРИЕМУЩЕСТВА</a>
+                </li>
+                <li class="nav-item me-5 pe-5">
+                    <a data-aos="fade-right" class="nav-link ripple btn-animate fw-bold fs-5"
+                       href="#"
+                       data-mdb-ripple-unbound="true"
+                       data-ripple-color="danger">КОНТАКТЫ</a>
+                </li>
+            </ul>
+
+            <!-- Icons -->
+            <ul class="navbar-nav d-flex flex-row me-1">
+                <i data-aos="flip-right" class="flag flag-uk"></i>
+                <i data-aos="flip-right" data-aos-delay="50" class="flag flag-us"></i>
+                <i data-aos="flip-right" data-aos-delay="100" class="flag flag-kz"></i>
+                <i data-aos="flip-right" data-aos-delay="150" class="flag flag-kg"></i>
+                <i data-aos="flip-right" data-aos-delay="200" class="flag flag-uz"></i>
+                <i data-aos="flip-right" data-aos-delay="250" class="flag flag-ru"></i>
+                <i data-aos="flip-right" data-aos-delay="300" class="flag flag-az"></i>
+                <i data-aos="flip-right" data-aos-delay="350" class="flag flag-by"></i>
+                <i data-aos="flip-right" data-aos-delay="400" class="flag flag-ua"></i>
+            </ul>
+
+        </div>
+    </div>
+    <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+
+<!--SECTION 1 HERO-->
+<section draggable="false" class="mb-8">
+    <div class="text-center bg-image position-relative shadow-lg"
+         style="max-height: 500px; background-color: transparent;">
+        <video class="shadow-lg shadow-inner pb-10" autoplay loop muted style="width: 100%">
+            <source src="media/bg.mp4" type="video/mp4" class="mb-5">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <!-- Background video -->
+    <div class="container position-absolute top-50 start-50 translate-middle" style="margin-top:">
+        <div class="row">
+            <div class="col-12 text-center">
+                <a data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"
+                   class="btn btn-outline-light btn-rounded btn-lg me-5"
+                   target="_blank"
+                   href="https://wa.me/+77776843494?text=Здравствуйте,%20пишу%20с%20сайта%20с%20Dickens." role="button"
+                   style="">Записаться</a>
+                <a data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
+                   class="btn btn-outline-light btn-rounded btn-lg px-5"
+                   href="#" role="button"
+                   style="">цены</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--SECTIN 2.1 ABOUT ME-->
+<section draggable="false" class="container pt-5">
+    <section class="mb-10 position-relative">
+        <style> @media (min-width: 768px) { #cta-img-nml-50 { margin-left: 0px; } } </style>
+        <div class="row gx-0">
+            <div class="col-4 mb-4 mb-md-0">
+                <div class="d-flex py-md-5"><img src="media/20220824_165001.jpg"
+                                                 class="w-100 rounded-5 shadow-3-strong" id="cta-img-nml-50"
+                                                 style="z-index: 10; transform: rotate(3deg);" alt=""></div>
+            </div>
+            <div class="col-8 mb-4 mb-md-0">
+                <div class="h-100 rounded-6 p-4 ps-md-5 text-white d-flex align-items-center">
+                    <div class="ps-md-5"><h2 class="fw-bold mb-4">Об основателе</h2>
+                        <p class="mb-4 fs-5">Меня зовут Анастасия и я основатель школы английского языка Dckens,а также
+                            практикующий преподаватель. Как преподаватель, моя роль заключается в обучении студентов
+                            английского языка и помощи им развить навыки чтения, письма, говорения и понимания на
+                            английском.</p>
+
+                        <p class="fs-5"> Моя работатвключает в себя проведение уроков, планирование учебных программ,
+                            оценку уровня
+                            владения языком, а также разработку и применение различных методик обучения для разных
+                            групп
+                            студентов.
+                        </p>
+
+                        <p class="fs-5"> За время своей профессиональной карьеры я столкнулись с разнообразными
+                            студентами разных
+                            возрастов, уровней подготовки и целей изучения английского языка. Мой опыт позволяет
+                            эффективно адаптироваться к индивидуальным потребностям каждого студента и помочь им
+                            достичь
+                            своих целей.
+                        </p>
+
+                        <p class="fs-5"> Как преподаватель английского языка, я обладаю знаниями грамматики, фонетики,
+                            лексики и
+                            других аспектов языка. моя задача - убедиться, что наши студенты доходят до высокого
+                            уровня
+                            владения языком, способного общаться на английском языке без проблем и совершенствовать
+                            свои
+                            комуникативные навыки.
+                        </p>
+
+                        <!--                        <p> Моя работа как преподавателя имеет огромное значение, так как я помогаю студентам развивать-->
+                        <!--                              их коммуникативные навыки, творчески использую разнообразные методики обучения и стремлюсь-->
+                        <!--                              к-->
+                        <!--                              тому, чтобы каждый студент достиг своего индивидуального успеха в овладении-->
+                        <!--                              английским языком.-->
+                        <!--                        </p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+<!--SECTION 2.2 ABOUT DICKENS-->
+<section class="mb-5" id="about_us">
+    <div class="container">
+        <div class="card shadow-lg">
+            <div class="row">
+                <div data-aos="fade-right" data-aos-duration="1000" class="col-lg-6 col-xl-4"><img
+                        src="media/IMG_20221222_223211_804.jpg"
+                        class="w-100 rounded"
+                        aria-controls="#picker-editor"></div>
+                <div class="col-lg-6 col-xl-8">
+                    <div class="card-body px-4 px-md-5">
+                        <h2 data-aos="fade-up" class="fw-bold">О КУРСАХ DICKENS</h2>
+                        <p data-aos="fade-up" class="fs-5">Добро пожаловать в
+                            <span class="fw-bold text-primary">DICKENS</span>! Наши курсы английского языка - это не
+                            просто учебное заведение, это место, где вы почувствуете поддержку и вдохновение на каждом
+                            шагу вашего учебного пути. </p>
+                        <p data-aos="fade-up" class="fs-5">Уникальность "Dickens" заключается в
+                            том, что наши студенты находятся по всему миру. Мы
+                            создали глобальное сообщество, где вы сможете общаться с одноклассниками из разных стран,
+                            погружаясь в многообразие культур и языков. </p>
+                        <p data-aos="fade-up" class="fs-5">Наши курсы разработаны с учетом
+                            различных уровней владения языком, начиная с начинающих и
+                            заканчивая продвинутыми уровнями. Наши опытные и преданные преподаватели используют
+                            современные методики, чтобы сделать обучение интересным и эффективным </p>
+                        <p data-aos="fade-up" class="fs-5">Мы также предлагаем гибкий график
+                            занятий, индивидуальные консультации и доступ к обширным образовательным ресурсам.
+                            Независимо от ваших целей - повысить профессиональные навыки, подготовиться к международным
+                            экзаменам или просто наслаждаться общением на английском - "Dickens" поможет вам достичь
+                            успеха.</p>
+                        <p data-aos="fade-up" class="fs-5">Присоединяйтесь к нашей увлекательной
+                            языковой семье и давайте вместе создадим яркие истории
+                            на английском языке!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--END SECTION 2-->
+
+
+<!--SECTION 3 PRICING-->
+<section class="mb-10">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4 text-light">Программы</h2>
+        <div class="row gx-xxl-5">
+            <div data-aos="fade-up" data-aos-delay="400" class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <div class="card h-100 shadow-lg">
+                    <div class="card-header text-center pt-4"><p class="text-uppercase">
+                        <strong>Пробное занятие</strong></p>
+                        <h3 class="mb-4"><strong>Бесплатно</strong></h3>
+                        <button type="button" class="btn btn-link w-100 mb-3"
+                                style="background-color: hsl(0, 0%, 95%)" data-ripple-color="primary">Записаться
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <ol class="list-unstyled mb-0">
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3 "></i>Определим ваш уровень
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i>Проведём консультацию по программам
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i>Расскажем как будет проходить обучение
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i>Определим ваши цели
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i>Составим план вашего обучения
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <div class="card h-100 shadow-lg">
+                    <div class="card-header text-center pt-4"><p class="text-uppercase">
+                        <strong>Парные</strong></p>
+                        <h3 class="mb-4"><strong>40 000</strong> <small class="text-muted"
+                                                                        style="font-size: 16px">₸</small>
+                        </h3>
+                        <button type="button" class="btn btn-link w-100 mb-3"
+                                style="background-color: hsl(0, 0%, 95%)" data-ripple-color="primary">ЗАПИСАТЬСЯ
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <ol class="list-unstyled mb-0">
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Строгий график занятий</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Git repository</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>npm installation</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="col-lg-3 mb-4 mb-lg-0">
+                <div class="card h-100 border border-primary shadow-lg">
+                    <div class="card-header text-center pt-4">
+                        <p class="text-uppercase">
+                            <strong>В группе</strong></p>
+                        <h3 class="mb-4"><strong>100 000</strong> <small class="text-muted"
+                                                                         style="font-size: 16px">₸</small>
+                        </h3>
+                        <button type="button" class="btn btn-primary w-100 mb-3">ЗАПИСАТЬСЯ</button>
+                    </div>
+                    <div class="card-body">
+                        <ol class="list-unstyled mb-0">
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Unlimited updates</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Git repository</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>npm installation</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Code examples</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Premium snippets</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" class="col-lg-3 mb-4 mb-lg-0">
+                <div class="card h-100 shadow-lg">
+                    <div class="card-header text-center pt-4"><p class="text-uppercase">
+                        <strong>Индивидуально</strong></p>
+                        <h3 class="mb-4"><strong>27 000</strong> <small class="text-muted"
+                                                                        style="font-size: 16px">₸</small>
+                        </h3>
+                        <button type="button" class="btn btn-link w-100 mb-3"
+                                style="background-color: hsl(0, 0%, 95%)" data-ripple-color="primary">ЗАПИСАТЬСЯ
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <ol class="list-unstyled mb-0">
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Адаптирование учебных материалов под ваш запрос</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Составление вашего индивидуального плана и темпа обучения</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Занятия от 2р. в неделю</span>
+                            </li>
+                            <li class="mb-3"><i
+                                    class="fas fa-check text-success me-3"></i><span>Возможность переноса/отработки занятий</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--END SECTION-->
+
+
+<!--SECTION 4 WHY US-->
+<section class="mb-10">
+    <div class="container">
+        <div class="card mb-3 shadow">
+            <div class="row">
+                <div data-aos="fade-right" class="col-lg-5 col-xl-4"><img
+                        src="https://img.freepik.com/premium-vector/outline-map-country-england-vector-illustration_628809-640.jpg?w=2000"
+                        alt="" class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5"
+                        aria-controls="#picker-editor" draggable="false"></div>
+                <div class="col-lg-7 col-xl-8">
+                    <div class="card-body text-center text-dark">
+                        <h3 class="fw-bold mb-4">Почему DICKENS?</h3>
+                        <div class="d-flex content-justify-center">
+                            <p data-aos="fade-up" class="col-3 border border-danger px-3 py-3 my-auto">
+                                Обучение только через интересные актуальные темы и навыки современной жизни
+                            </p>
+                            <p data-aos="fade-up" class="col-3 border border-danger px-3 py-3 my-auto">
+                                Опытные преподаватели с сертификатами TEFOL-TESOL помогут достичь цели на любом уровне
+                            </p>
+                            <p data-aos="fade-up" class="col-3 border border-danger px-3 py-3 my-auto">
+                                Система скидок и лояльности
+                            </p>
+                        </div>
+                        <div class="d-flex content-justify-center">
+                            <p data-aos="fade-up" class="col-3 border border-danger px-3 py-3 my-auto">
+                                Обучение проходит как онлайн, так и в центре города Караганды
+                            </p>
+                            <p data-aos="fade-up" class="col-3 border border-danger px-3 py-3 my-auto">
+                                90% студентов достигают своих целей в изучении благодаря DICKENS
+                            </p>
+                            <p data-aos="fade-up" class="col-3 border border-danger px-3 py-3 my-auto">
+                                Дружелюбная атмосфера на занятиях и поддержка. Без дедлайнов и давления
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--SECTION END-->
+
+
+<!--FAQ-->
+<section class="my-5">
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button
+                            class="accordion-button"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                    >
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                     data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is hidden by default,
+                        until the collapse plugin adds the appropriate classes that we use to style each
+                        element. These classes control the overall appearance, as well as the showing and
+                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just about any HTML
+                        can go within the <strong>.accordion-body</strong>, though the transition does
+                        limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo"
+                    >
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                     data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                        default, until the collapse plugin adds the appropriate classes that we use to
+                        style each element. These classes control the overall appearance, as well as the
+                        showing and hiding via CSS transitions. You can modify any of this with custom CSS
+                        or overriding our default variables. It's also worth noting that just about any
+                        HTML can go within the <strong>.accordion-body</strong>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                    >
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                     data-mdb-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                        until the collapse plugin adds the appropriate classes that we use to style each
+                        element. These classes control the overall appearance, as well as the showing and
+                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just about any HTML
+                        can go within the <strong>.accordion-body</strong>, though the transition does
+                        limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--SECTION 5 STATS-->
+<section class="mb-10 text-center text-lg-start">
+    <style>
+        @media (min-width: 992px) { .cascading-right { margin-right: -50px; } .rotate-lg-6 { transform: rotate(6deg); } } /* These are the KEY styles - you can add them directly to any object you want in your project */ .fancy-border-radius { border-radius: 53% 47% 52% 48% / 36% 41% 59% 64%; }
+
+
+    </style> <!-- Jumbotron -->
+    <div class="container">
+        <div class="row g-0 align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0 text-center">
+                <div class="card cascading-right "
+                     style=" background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px); z-index: 1; ">
+                    <div class="card-body px-4 py-5 p-md-5 shadow-lg"><h2 class="fw-bold mb-4 display-5">
+                        Наши результаты</h2>
+                        <p class="text-muted mb-5 fs-5">Мы гордимся каждым нашим студентом,который достиг своего
+                            индивидуального успеха в овладении английским языком!</p>
+                        <div class="row">
+                            <div data-aos="fade-up" data-aos-duration="1000" class="col-md-4 mb-5 mb-md-0"><h2
+                                    class="fw-bold text-dark mb-3">
+                                8</h2>
+                                <h5 class="text-muted mb-0">Лет преподавания</h5></div>
+                            <div data-aos="fade-up" data-aos-duration="1000" class="col-md-4 mb-5 mb-md-0"><h2
+                                    class="fw-bold text-dark mb-3">
+                                > 1 000</h2> <h5 class="text-muted mb-0">Студентов</h5></div>
+                            <div data-aos="fade-up" data-aos-duration="1000" class="col-md-4"><h2
+                                    class="fw-bold text-dark mb-3">90%</h2> <h5
+                                    class="text-muted mb-0">Результата</h5></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="1000" class="col-lg-6 mb-lg-0 "><img
+                    src="media/IMG_20220824_102931_008.jpg"
+                    class="w-75 rotate-lg-6 rounded shadow-lg" alt=""
+                    aria-controls="#picker-editor"></div>
+        </div>
+    </div>
+</section>
+<!--SECTION END-->
+
+
+<!--SECTION 6 ОТЗЫВЫ-->
+<section class="mb-10 text-center">
+    <div class="container">
+
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-xl-8">
+                <h2 class="fw-bold mb-5 text-light">Отзывы</h2></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-5 mb-md-0">
+                <div data-aos="flip-right" class="card shadow-lg">
+                    <div class="card-body ">
+                        <div class="d-flex justify-content-center mb-4"><img
+                                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                                class="rounded-circle shadow-1-strong" width="150" height="150"></div>
+                        <h5 class="mb-3">Марина и Александр</h5>
+                        <h6 class="text-primary mb-3">Путешествия</h6>
+                        <p class="px-xl-3"><i class="fas fa-quote-left pe-2"></i>
+                            <small>Наша семья решила переехать в другую страну и начать новую жизнь, без особых знаний английского и курсы  языка стали для нас настоящим спасением. Благодаря интенсивным занятиям и профессиональному преподавателю, мы смогли быстро освоить  базовый английский и успешно адаптироваться в новой среде. Помимо языка  на уроках  познакомились с местной культурой и обычаями. Мы благодарны всему коллективу Dickens за  поддержку и помощь в нашем новом начале!</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-5 mb-md-0">
+                <div data-aos="flip-right" data-aos-delay="300" class="card shadow-lg">
+                    <div class="card-body px-0">
+                        <div class="d-flex justify-content-center mb-4"><img
+                                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                                class="rounded-circle shadow-1-strong" width="150" height="150"></div>
+                        <h5 class="mb-3">Олег</h5>
+                        <h6 class="text-primary mb-3">Студент</h6>
+                        <p class="px-xl-3"><i class="fas fa-quote-left pe-2"></i>
+                            <small>Я хочу поблагодарить команду курсов "DICKENS" за их помощь и поддержку в моей успешной подготовке к поступлению в зарубежный вуз. Курс оказался для меня очень  полезным, так как мне предоставили все необходимые материалы и знания для достижения моей цели. Преподаватели были опытными и внимательными, они помогли мне улучшить навыки чтения, письма, говорения и listening comprehension на английском языке. Благодаря Вам  я успешно сдал международный языковой экзамен и получил необходимый балл для поступления! Большое спасибо!</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0">
+                <div data-aos="flip-right" data-aos-delay="600" class="card shadow-lg">
+                    <div class="card-body px-0">
+                        <div class="d-flex justify-content-center mb-4"><img
+                                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                                class="rounded-circle shadow-1-strong" width="150" height="150"></div>
+                        <h5 class="mb-3">Иван</h5>
+                        <h6 class="text-primary mb-3">Инженер</h6>
+                        <p class="px-xl-3"><i class="fas fa-quote-left pe-2"></i>
+                            <small>Нужно было улучшить свои знания английского языка для работы, и курсы Dickens были для меня отличным выбором. Преподаватель была очень компетентной и всегда готовой  помочь, а программа обучения была разнообразной и насыщенной. Благодаря этим курсам, я значительно улучшил свои знания английского языка, что позволило мне получить повышение на работе и начать новые проекты с иностранными партнерами. Я очень благодарен за это курсам Dickens и рекомендую их всем, кто хочет улучшить свои знания английского языка.</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--SECTION END-->
+
+
+<!--SECTION 7 CONTACTS-->
+<section class="mb-10">
+    <div class="container">
+        <div class="card mb-3 shadow-lg">
+            <div class="row g-0 d-flex align-items-center">
+                <div class="col-lg-4 d-none d-lg-flex">
+                    <div class="map-container-2 w-100 mb-4 mb-lg-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.1211852032816!2d73.09047187687794!3d49.80258933379872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42434724f2209873%3A0x5ead514f4ac7a234!2z0L_RgNC-0YHQvy4g0J3Rg9GA0LrQtdC90LAg0JDQsdC00LjRgNC-0LLQsCA5LCDQmtCw0YDQsNCz0LDQvdC00LAgMTAwMDAw!5e0!3m2!1sru!2skz!4v1695828964680!5m2!1sru!2skz"
+                                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-8 text-center">
+                    <div class="card-body py-5 px-md-5">
+                        <h2 class="fw-bold">ОСТАЛИСЬ <span class="text-danger">ВОПРОСЫ ?</span></h2>
+                        <h2 class="fw-bold">НАПИШИ НАМ</h2>
+                        <button class="btn btn-danger btn-rounded btn-lg px-5 py-3 my-3 fs-4 btn-animate">
+                            СПРОСИТЬ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+
+<!-- End your project here-->
+
+</body>
+<!-- MDB -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+<!--AOS-->
+<script src="aos-master/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+
+</script>
+</html>
